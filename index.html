@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span class="current__status"></span>
+        <h3>Your Information</h3>
+        <div class="total__income__container">
+            <p>Income</p>
+            <p class="total__income"></p>
+        </div>
+        <div class="total__expense__container">
+            <p>Expense</p>
+            <p class="total__expense"></p>
+        </div>
+        <div class="money__left__container">
+            <p>Moey left</p>
+            <p class="money__left"></p>
+        </div>
+    </header>
+    <main>
+        <h3>Add your Income or expense</h3>
+        <form action="">
+            <select name="type" id="type" class="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <div class="input__group">
+                
+                <input type="text" name="description" id="description" placeholder="description">
+            </div>
+            <div class="input__group">
+
+                <input type="number" name="amount" id="amount" placeholder="amount">
+            </div>
+            <button type="submit" class="add">Add</button>
+        </form>
+        <div class="history__container">
+         
+        </div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+</html>

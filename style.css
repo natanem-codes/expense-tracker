@@ -1,0 +1,21 @@
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+
+.add {
+    padding: .5rem 1rem;
+}
+
+.summary__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
